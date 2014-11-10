@@ -19,7 +19,7 @@
     } else if ([mode isEqualToString:@"speaker"]) {
         [session setCategory:AVAudioSessionCategorySoloAmbient error:&err];
     } else if ([mode isEqualToString:@"normal"]) {
-        [session setCategory:AVAudioSessionCategorySoloAmbient error:&err];
+        [session setCategory:AVAudioSessionCategoryPlayback error:&err];
     } else if ([mode isEqualToString:@"ringtone"]) {
         [session setCategory:AVAudioSessionCategorySoloAmbient error:&err];
     }
