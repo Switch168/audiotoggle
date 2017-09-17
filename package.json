@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "name": "com.dooble.audiotoggle",
+    "cordova_name": "AudioToggle",
+    "description": "Set system audio status",
+    "license": "Apache",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Switch168/audiotoggle"
+    },
+    "author": "alongubkin",
+    "engines": [
+      {
+        "name": "cordova",
+        "version": ">=3.0.0"
+      }
+    ]
+}
